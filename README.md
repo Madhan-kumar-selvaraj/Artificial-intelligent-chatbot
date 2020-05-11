@@ -1,2 +1,5 @@
-# Artificial-intelligent-chatbot
-AI chatbot designed for the coaching institute to respond to the students regarding the course details and deplaoyed in the Flask web framework. Apart from that it can respond to the uses anything they ask. 
+Check the blog for complete refrence
+https://madhankumarselvaraj.blogspot.com/2020/05/artificial-intelligent-chat-bot-with.html
+
+Run the chatbot_train.py file first and then run main.py file under the project folder.
+
