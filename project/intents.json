@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","Good morning","Good afternoon","Good evening"],
+         "responses": ["Hi","Hello, thanks for your greeting", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "helpful", "Awesome thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure, I understand"],
+         "context": [""]
+        },
+		 {"tag": "identity",
+         "patterns": ["Who are you?","What is your name?"],
+         "responses": ["You can call me as Asura", "I am Asura"],
+         "context": [""]
+        },
+		 {"tag": "work",
+         "patterns": ["what you can do for me?", "what you know?", "what is the use of you?","How you can help me?"],
+         "responses": ["I am here to guide you for Data science course","Assist you for Data science course"],
+         "context": [""]
+        },
+		 {"tag": "datascience",
+         "patterns": ["Tell me about data science","Use of learning data science"],
+         "responses": ["It is field of study that gives computers the ability to learn without being explicitly programmed"],
+         "context": [""]
+        },
+		 {"tag": "dsgrowth",
+         "patterns": ["What is the growth of data science","Scope of data science"],
+         "responses": ["LinkedIn data shows that hiring growth has grown 74% in the past four years", "Data science is going to be one of the most sought after profession after a while just like app developers in the last few years","Career growth in Data Science can be well estimated by the fact that Harvard Business Review has called it the 'Sexiest job of the 21st century'"],
+         "context": [""]
+        },
+		 {"tag": "coursedetail",
+         "patterns": ["Tell me about the course","what about the course"],
+         "responses": ["Data science course package contains statistics, machine learning and deep learning. It takes half a year to complete the course and you can have a course in Chennai, Bangalore, Mumbai, Delhi and Kolkatta"],
+         "context": [""]
+        },
+		{"tag": "coursefee",
+         "patterns": ["What is the course fees","what is the fees","How much need to pay"],
+         "responses": ["You can check our website for further reference! https://madhankumarselvaraj.blogspot.com/"],
+         "context": [""]
+        }
+   ]
+}
